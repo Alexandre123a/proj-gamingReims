@@ -78,9 +78,9 @@ HTML
                    <input type="hidden" name="source" id="source" value="EndPage">
                    <li>
                         <input type="text" name="pseudo" placeholder="Un pseudo au pif (< 29 lettres)" size="29" required /><br />
-                        <textarea name="commentaire" placeholder="C'était nul à chier ! X) \n (< 2000 lettres)" rows="5" cols="35" required></textarea><br />
+                        <textarea name="commentaire" placeholder="C'était nul à chier ! X)" rows="5" cols="35" required></textarea><br />
                    </li>
-                   <input type="hidden" name="idprofil" value="{$_SESSION["InfosUser"]["ID"]}">
+                   <input type="hidden" name="idprofil" value="{$_SESSION['InfosUser']['ID']}">
                    <input type="submit" value="Poster ma remarque" name="submit_commentaire" />
                 </form>
                 <br/>
@@ -88,6 +88,7 @@ HTML
         <br>
         <br>
         <div class="corps">
+            
         HTML
         );
     }
